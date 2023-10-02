@@ -1,4 +1,4 @@
-` ` `  go build frwd ` ` ` 
+ `  go build frwd ` 
 
 
 Go İle DMZ'den İç Ağa Port Yönlendirici
@@ -14,7 +14,8 @@ Kullanım:
 Proje, komut satırından parametre alarak çalıştırılır. Örneğin:
 
  
-` ` ` go run dosya_adi.go -targetIP=192.168.1.10 -targetPort=8080 -listenPort=:9090` ` ` 
+
+` go run dosya_adi.go -targetIP=192.168.1.10 -targetPort=8080 -listenPort=:9090` 
 
 Bu komut, DMZ'de 9090 portunu dinleyip, gelen bağlantıları 192.168.1.10 IP adresindeki 8080 portuna yönlendirir.
 
@@ -23,7 +24,7 @@ Bu kod, temel bir port yönlendirme işlevi sağlar. Gerçek bir üretim ortamı
 
 Bu açıklama, projenin temel işlevselliğini ve nasıl kullanılacağını özetler. İhtiyaçlarınıza göre bu açıklamayı daha da genişletebilir veya özelleştirebilirsiniz.
 
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Go-based DMZ to Internal Network Port Forwarder
 
@@ -38,7 +39,7 @@ Usage:
 The project is run by taking parameters from the command line. For example:
 
  
-` ` `   go run filename.go -targetIP=192.168.1.10 -targetPort=8080 -listenPort=:9090` ` ` 
+ `   go run filename.go -targetIP=192.168.1.10 -targetPort=8080 -listenPort=:9090` 
 This command listens on port 9090 in the DMZ and forwards incoming connections to port 8080 on the IP address 192.168.1.10.
 
 Note:
