@@ -39,7 +39,7 @@ Usage:
 The project is run by taking parameters from the command line. For example:
 
  
- `   go run filename.go -targetIP=192.168.1.10 -targetPort=8080 -listenPort=:9090` 
+ `   go run frwd.go -targetIP=192.168.1.10 -targetPort=8080 -listenPort=:9090` 
 This command listens on port 9090 in the DMZ and forwards incoming connections to port 8080 on the IP address 192.168.1.10.
 
 Note:
