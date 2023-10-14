@@ -15,7 +15,7 @@ Proje, komut satırından parametre alarak çalıştırılır. Örneğin:
 
  
 
-` go run dosya_adi.go -targetIP=192.168.1.10 -targetPort=8080 -listenPort=:9090` 
+` go run frwd.go -targetIP=192.168.1.10 -targetPort=8080 -listenPort=:9090` 
 
 Bu komut, DMZ'de 9090 portunu dinleyip, gelen bağlantıları 192.168.1.10 IP adresindeki 8080 portuna yönlendirir.
 
